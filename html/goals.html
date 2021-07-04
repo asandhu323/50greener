@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Goals</title>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1" name="viewport"/>
+    <link rel="stylesheet" type="text/css" href="../css/skeleton.css" />
+    <link rel="stylesheet" type="text/css" href="../css/goals.css" />
+
+  </head>
+  <body>
+    <div id="goals-identifier"></div>
+    
+
+    <!-- MAIN GOAL -->
+    <!-- <div id="progress-tab" class="tablink-active">Your Goal</div>
+        <div id="progress" class="tab-body">
+
+        </div> -->
+    <!-- MAIN GOAL -->
+    <div id="old-score"></div>
+
+    <div class="allsliders">
+        <!-- Followed BananaCoder slider example/guide. Modified to suit our need. -->
+        <!-- https://www.youtube.com/watch?v=BrpiNUf2XCk -->
+        <!-- Code Start -->
+        <div class="slidercontainer">
+            <div class="slidetext">Main Goal</div>
+            <input type="range" min="0" max="100" value="0" class="slider" id="myRange1">
+            <div class="valuetext">Percentage to reduce: <span class="slidervalue" id="value1"></span></div>
+            <span class="tooltiptext">Set your goal for reducing carbon emissions by percent: <b>red</b> is remaining, <b>green</b> is accomplished.</span>
+        </div>
+        <!-- Code End -->
+
+    </div>
+
+    <div id="goal-score">Your New Goal: <span id="goal-value"></span></div>
+
+    <input type="button" id="set-goal" value="Set Goal" />
+    <input type="button" id="finish" value="Finish" />
+
+
+  </body>
+</html>

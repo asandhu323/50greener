@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>50% Greener - Settings</title>
+  <meta name="description" content="Settings page">
+  <meta name="author" content="Avneet Sandhu">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../css/settings.css">
+</head>
+
+<body>
+  <div id="settings-identifier"></div>
+  <div id="settings-container">
+    <form>
+      <label for="change-username">Change Username:</label></br>
+      <input type="text" id="change-username" name="change-username" placeholder="New Username"></br>
+      <div id="user-successMsg"></div>
+      <div id="user-errorMsg"></div></br>
+      <div class="buttons">
+        <input type="submit" id="change-user-save-btn" value="Save" />
+        <input type="button" id="change-user-clear-btn" value="Clear" />
+      </div>
+    </form></br></br>
+    <form>
+      <label for="change-password">Change Password:</label></br>
+      <input type="password" id="change-password" name="change-password" placeholder="New Password" ></br>
+      <div id="pass-successMsg"></div>
+      <div id="pass-errorMsg"></div></br>
+      <div class="buttons">
+        <input type="submit" id="change-pass-save-btn" value="Save" />
+        <input type="button" id="change-pass-clear-btn" value="Clear" />
+      </div>
+    </form></br></br>
+    <form>
+      <label for="delete-account">Delete Account? Confirm by entering username and password.</label></br>
+      <input type="text" id="delete-account-user" name="delete-account" placeholder="Confirm Username"></br>
+      <input type="password" id="delete-account-pass" name="delete-account" placeholder="Confirm Password"></br>
+      <div id="delete-errorMsg"></div></br>
+      <div class="buttons">
+        <input type="submit" id="delete-btn" value="Delete" />
+        <input type="button" id="delete-clear-btn" value="Clear" />
+      </div>
+    </form>
+  </div>
+
+
+  <!-- <script src=""></script> -->
+</body>
+
+</html>

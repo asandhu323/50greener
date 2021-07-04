@@ -1,0 +1,51 @@
+.chartGauge {
+    width: 80%;
+    margin: 10vw auto;
+    text-align: center;
+} 
+
+.text {
+     color: "#112864";
+    font-size: 16px;
+}
+          
+svg {
+    font: 10px sans-serif;
+}
+
+#pieContainer {
+    position: relative;
+    margin: 10vw auto;
+    height: 50vh;
+    width: 50vw;
+}
+
+#retake-survey {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    border-radius: 7px;
+    background-color: #3C7329;
+    color: white;
+    border: 0;
+    box-shadow: 2px 2px 5px black;
+    font-size: 1rem;
+  }
+
+  #welcomeMsg {
+    color: rgb(53, 155, 63);
+    font-size: 2rem;
+    padding: 1.5% 3%;
+  }
+
+  #chart-desc {
+      padding: 3%;
+  }
+
+  #carbon-score{
+    color: rgb(53, 155, 63);
+    font-size: 2rem;
+    padding: 1.5% 3%;
+  }

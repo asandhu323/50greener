@@ -1,0 +1,13 @@
+[
+    { "challenge" : "Ensure your furnace filters are clean", "points" : 10 },
+    { "challenge" : "Don't use the oven for a week", "points" : 10 },
+    { "challenge" : "Ensure your AC filters are clean", "points" : 10 },
+    { "challenge" : "Replace a incadescent lightbulb with a LED lightbulb", "points" : 10 },
+    { "challenge" : "Turn off all the lights when you leave the room for an entire week", "points" : 25 },
+    { "challenge" : "Unplug a device not in use", "points" : 10 },
+    { "challenge" : "Line dry/Air dry your clothes this week", "points" : 25 },
+    { "challenge" : "Air dry instead of using a blowdryer this week", "points" : 15 },
+    { "challenge" : "If its the summer, turn up the thermostat by 2C", "points" : 10 },
+    { "challenge" : "If its the winter, turn down the thermostat by 2C", "points" : 10 },
+    { "challenge" : "Check all your windows for any leaks", "points" : 15 }
+]

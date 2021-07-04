@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>50% Greener - Login</title>
+  <meta name="description" content="Login page">
+  <meta name="author" content="Avneet Sandhu">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../css/login.css">
+</head>
+
+<body>
+  <div id="login-identifier"></div>
+  <div id="login-container">
+    <form>
+      <p class="mandatory">Mandatory fields marked with an *</p>
+      <label for="username"><span class="mandatory">*</span>Username:</label></br>
+      <input type="text" id="login-username" name="username" placeholder="Username"></br></br>
+      <label for="password"><span class="mandatory">*</span>Password:</label></br>
+      <input type="password" id="login-password" name="password" placeholder="Password"></br>
+      <div id="errorMsg"></div></br>
+      <input type="submit" id="login-btn" value="Login" />
+    </form>
+  </div>
+
+  <div>
+    <p>Login Using Google</p>
+    <div class="g-signin2" data-onsuccess="onSignIn"></div>
+  </div>
+
+  <!-- <script src="../js/login.js"></script> -->
+</body>
+
+</html>

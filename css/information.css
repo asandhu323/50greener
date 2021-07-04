@@ -1,0 +1,61 @@
+#tabmenu {
+    list-style: none;
+    margin: 0 2vw;
+    padding: 0;
+}
+
+#tabmenu span {
+    width: 10vw;
+    vertical-align: text-top;
+    text-align: center;
+}
+
+#tabmenu .tablink {
+    display: inline-block;
+    padding: 4px;
+    border: 1px solid #c8e9a7;
+    border-bottom: none;
+    border-radius: 10px 10px 0 0;
+    background-color: #5db866;
+    box-shadow: 3px 0 #a7a0a0;
+}
+
+#tabmenu .tablink-active {
+    display: inline-block;
+    padding: 4px;
+    border: 1px solid #5db866;
+    border-bottom: none;
+    border-radius: 10px 10px 0 0;
+    background-color: #c8e9a7;
+    box-shadow: 3px 0 #a7a0a0;
+}
+
+.tab-body {
+    margin: 0 2vw;
+    padding: 15px;
+    height: 71vh;
+    background-color: #c8e9a7;
+    border: 1px solid #5db866;
+    border-radius: 0 10px 10px 10px;
+    box-shadow: 3px 3px 1px 1px #a7a0a0;
+}
+
+.tab-body h4 {
+    margin: 0;
+}
+
+#water,
+#food,
+#commute,
+#home,
+#links {
+    overflow-y: auto;
+}
+
+.tip {
+    font-weight: bold;
+}
+
+.url {
+    text-decoration: underline;
+}

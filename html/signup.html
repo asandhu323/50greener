@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>50% Greener - Sign up</title>
+    <meta name="description" content="Sign up page">
+    <meta name="author" content="Avneet Sandhu">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/signup.css">
+  </head>
+  <body>
+    <div id="signup-identifier"></div>
+    <div id="signup-container">
+      <form>
+        <p class="mandatory">Mandatory fields marked with an *</p>
+        <label for="username"><span class="mandatory">*</span>Username:</label></br>
+        <input type="text" id="signup-username" name="username" placeholder="Username"></br></br>
+        <div id="name-container">
+        <div id="first-name-container">
+        <label for="first-name"><span class="mandatory">*</span>First Name: </label></br><input type="text" id="signup-first-name" name="first-name" placeholder="First Name"></br>
+        </div><div id="last-name-container">
+        <label for="last-name"><span class="mandatory">*</span>Last Name: </label></br><input type="text" id="signup-last-name" name="last-name" placeholder="Last Name"></br></br>
+        </div></div>
+        <label for="password"><span class="mandatory">*</span>Password:</label></br>
+        <input type="password" id="signup-password" name="password" placeholder="Password"></br>
+        <div id="errorMsg"></div></br>
+        <input type="submit" id="signup-btn" value="Sign up"/>
+      </form>
+    </div>
+    
+    
+    <!-- <script src="../js/signup.js"></script> -->
+  </body>
+</html>

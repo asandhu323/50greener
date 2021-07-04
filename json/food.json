@@ -1,0 +1,12 @@
+[
+    { "challenge" : "Buy locally grown food", "points" : 10 },
+    { "challenge" : "Eat plant-based for a day", "points" : 10 },
+    { "challenge" : "Do not eat meat for a day", "points" : 15 },
+    { "challenge" : "Buy products with small amounts of packaging", "points" : 10 },
+    { "challenge" : "Compost food waste for the entire week", "points" : 20 },
+    { "challenge" : "Use reusable bags when shopping", "points" : 10 },
+    { "challenge" : "Avoid using single-use products for a day", "points" : 25 },
+    { "challenge" : "Do not eat dairy for a day", "points" : 15 },
+    { "challenge" : "Don't eat out for the week", "points" : 20 },
+    { "challenge" : "Use any meat substitute twice this week", "points" : 10 }
+]

@@ -1,0 +1,12 @@
+[
+    { "challenge" : "Take a cool/cold shower", "points" : 15 },
+    { "challenge" : "Wash clothes in cold water for the week", "points" : 10 },
+    { "challenge" : "Take a shorter shower", "points" : 15 },
+    { "challenge" : "Turn off the water when brushing your teeth", "points" : 10 },
+    { "challenge" : "Hand wash your dishes, don't let the water run while rinsing", "points" : 15 },
+    { "challenge" : "Only run the washing machine when its full the entire week", "points" : 15 },
+    { "challenge" : "Only flush the toilet after doing number 2", "points" : 25 },
+    { "challenge" : "Don't leave water running while you shampoo", "points" : 15 },
+    { "challenge" : "Wash fruits and vegetables in a pan of water instead of leaving the water running", "points" : 20 },
+    { "challenge" : "Find and repair a leaky faucet", "points" : 30 }
+]

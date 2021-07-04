@@ -1,0 +1,48 @@
+#tabmenu .tablink,
+#tabmenu .tablink-active {
+    font-size: 20px;
+    padding: 5px 20px;
+    margin: 10px 20px 3px 20px;
+    border-radius: 10px;
+    border: 1px solid #c8e9a7;
+    background-color: #5db866;
+    box-shadow: 3px 3px 1px 1px #a7a0a0;
+}
+
+.tab-body {
+    margin: 0 20px;
+    padding: 15px;
+    background-color: #c8e9a7;
+    border: 1px solid #5db866;
+    border-radius: 10px;
+    box-shadow: 3px 3px 1px 1px #a7a0a0;
+}
+
+.tab-body h4 {
+    margin: 0;
+}
+
+.tab-body .challenges {
+    display: grid;
+    grid: auto / 75% 10% 15%;
+    align-items: center;
+}
+
+.tablink .arrow,
+.tablink-active .arrow {
+    float: right;
+}
+
+.challenges span {
+    margin: 5px 0;
+}
+
+#progress {
+    height: 20px;
+    padding-bottom: 40px;
+}
+
+#progress>svg {
+    height: 100%;
+    display: block;
+}

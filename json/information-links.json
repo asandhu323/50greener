@@ -1,0 +1,32 @@
+[
+    {
+        "tip": "City of Vancouver Climate Action Plan",
+        "body": "You can read more about Vancouver's Climate Emergency Action Plan by following the link.",
+        "link": "https://vancouver.ca/green-vancouver/vancouvers-climate-emergency.aspx"
+    },
+    {
+        "tip": "City of Vancouver Green Programs",
+        "body": "You can read more about Vancouver's initiatives to help you reduce your footprint by following the link.",
+        "link": "https://vancouver.ca/green-vancouver/programs-to-help-reduce-your-footprint.aspx"
+    },
+    {
+        "tip": "Canada's Pan-Canadian Framework on Clean Growth and Climage Change",
+        "body": "Canada's plan for a greener future.",
+        "link": "https://www.canada.ca/en/services/environment/weather/climatechange/climate-plan/climate-plan-overview.html"
+    },
+    {
+        "tip": "Canada's Overview of Energy Star rebates and Incentives",
+        "body": "Resource for Canada's Energy Star program.",
+        "link": "https://www.nrcan.gc.ca/energy-efficiency/energy-star-canada/18953"
+    },
+    {
+        "tip": "David Suzuki Foundation's suggestions on what you can do to help",
+        "body": "Things you can do suggested by David Suzuki Foundation. For more information follow the link below.",
+        "link": "https://davidsuzuki.org/what-you-can-do/"
+    },
+    {
+        "tip": "myClimate's carbon offset",
+        "body": "A recommended link to purchase carbon offsets.",
+        "link": "https://www.myclimate.org/"
+    }
+]

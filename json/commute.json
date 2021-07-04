@@ -1,0 +1,12 @@
+[
+    { "challenge" : "Bike to work or school this week", "points" : 15 },
+    { "challenge" : "Take public transportation to work or school this week", "points" : 20 },
+    { "challenge" : "Ensure your tires are a the correct pressure", "points" : 10 },
+    { "challenge" : "Carpool to work or school this week", "points" : 10 },
+    { "challenge" : "Go a day without driving", "points" : 15 },
+    { "challenge" : "Remove excess weight from the car", "points" : 10 },
+    { "challenge" : "Avoid getting stuck in traffic the entire week", "points" : 25 },
+    { "challenge" : "Open the windows instead of using AC", "points" : 10 },
+    { "challenge" : "Do all your errands for the day in one trip", "points" : 15 },
+    { "challenge" : "Avoid hard braking and acceleration when driving", "points" : 10 }
+]
