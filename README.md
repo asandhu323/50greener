@@ -1,4 +1,5 @@
 # 50% Greener
+View web application: http://50percentgreener-env.eba-dmue6s88.us-west-2.elasticbeanstalk.com/
 ## Contributors: 
 
 | First Name | Last Name | Student Number |
