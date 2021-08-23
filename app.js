@@ -86,7 +86,7 @@ async function initDB() {
     user: '06OMmbjb33',
     password: 'OjmVt5SYvi',
     multipleStatements: true
-  // });
+  });
 
   const createDBAndTables = `CREATE DATABASE IF NOT EXISTS accounts;
         use accounts;
