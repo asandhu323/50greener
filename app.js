@@ -71,21 +71,21 @@ async function initDB() {
   const mysql = require('mysql2/promise');
 
   // THIS IS FOR LOCAL TESTING / DEVELOPMENT
-  var connection = await mysql.createConnection({
-    host: 'localhost',
-    port: 3306,
-    user: 'root',
-    password: '',
-    multipleStatements: true
-  });
+//   var connection = await mysql.createConnection({
+//     host: 'localhost',
+//     port: 3306,
+//     user: 'root',
+//     password: '',
+//     multipleStatements: true
+//   });
 
   // THIS IS FOR LIVE SERVER
-  // var connection = await mysql.createConnection({
-  //   host: 'aa1epf9tbswcoc5.cochyvrjmhpf.us-west-2.rds.amazonaws.com',
-  //   port: 3306,
-  //   user: 'admin',
-  //   password: '50percentgreener',
-  //   multipleStatements: true
+  var connection = await mysql.createConnection({
+    host: 'remotemysql.com',
+    port: 3306,
+    user: '06OMmbjb33',
+    password: 'OjmVt5SYvi',
+    multipleStatements: true
   // });
 
   const createDBAndTables = `CREATE DATABASE IF NOT EXISTS accounts;
@@ -690,26 +690,26 @@ app.post('/authenticate', [
   });
 
 // THIS IS FOR LOCAL TESTING / DEVELOPMENT
-var connection = mysql.createPool({
-  host: 'localhost',
-  port: 3306,
-  user: 'root',
-  password: '',
-  database: 'accounts',
-  connectionLimit: 10,
-  queueLimit: 0
-});
-
-// THIS IS FOR LIVE SERVER
 // var connection = mysql.createPool({
-//   host: 'aa1epf9tbswcoc5.cochyvrjmhpf.us-west-2.rds.amazonaws.com',
+//   host: 'localhost',
 //   port: 3306,
-//   user: 'admin',
-//   password: '50percentgreener',
+//   user: 'root',
+//   password: '',
 //   database: 'accounts',
 //   connectionLimit: 10,
 //   queueLimit: 0
 // });
+
+// THIS IS FOR LIVE SERVER
+var connection = mysql.createPool({
+  host: 'remotemysql.com',
+  port: 3306,
+  user: '06OMmbjb33',
+  password: 'OjmVt5SYvi',
+  database: '06OMmbjb33',
+  connectionLimit: 10,
+  queueLimit: 0
+});
 
 app.post('/authenticategoogle', function (req, res) {
   res.setHeader('Content-Type', 'application/json');
