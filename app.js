@@ -81,10 +81,10 @@ async function initDB() {
 
   // THIS IS FOR LIVE SERVER
   var connection = await mysql.createConnection({
-    host: 'remotemysql.com',
-    port: 3306,
-    user: '06OMmbjb33',
-    password: 'OjmVt5SYvi',
+    host: 'ec2-18-214-238-28.compute-1.amazonaws.com',
+    port: 5432,
+    user: 'gwwjycxuybqglv',
+    password: 'e0c57bac91d8bfaa6123648c48415c778b727d524cc8897e83e4c28df1e7778c',
     multipleStatements: true
   });
 
@@ -702,11 +702,11 @@ app.post('/authenticate', [
 
 // THIS IS FOR LIVE SERVER
 var connection = mysql.createPool({
-  host: 'remotemysql.com',
-  port: 3306,
-  user: '06OMmbjb33',
-  password: 'OjmVt5SYvi',
-  database: '06OMmbjb33',
+  host: 'ec2-18-214-238-28.compute-1.amazonaws.com',
+  port: 5432,
+  user: 'gwwjycxuybqglv',
+  password: 'e0c57bac91d8bfaa6123648c48415c778b727d524cc8897e83e4c28df1e7778c',
+  database: 'd85b486j9r93sh',
   connectionLimit: 10,
   queueLimit: 0
 });
